@@ -1,7 +1,6 @@
 const http = require('http');
 
 const data = {
-    author: "Іващенко",
     author: "Іващенко Мирон",
             articles:[
                 {title:"Основна інформація",text:
@@ -55,4 +54,5 @@ const server = http.createServer((req, res) => {
 
 server.listen(port, () => {
     console.log(`Server is running on port ${port}`);
+
 });
